@@ -17,5 +17,7 @@ namespace BusinessLayer
         public string City { get; set; }
         [Required]
         public DateTime? DateOfBirth { get; set; }
+
+        //ovo je testni komentar za Git
     }
 }
