@@ -1,0 +1,15 @@
+C:\Users\melij\Desktop\cSharp\MVC4\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\melij\Desktop\cSharp\MVC4\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\melij\Desktop\cSharp\MVC4\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\melij\Desktop\cSharp\MVC4\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\melij\Desktop\cSharp\MVC4\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
