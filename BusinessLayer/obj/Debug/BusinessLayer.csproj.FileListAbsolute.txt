@@ -13,3 +13,13 @@ C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFra
 C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.xml
 C:\Users\melij\Desktop\cSharp\MVC4 - drugi dio\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Lokalno programiranje\Employeemvc4\BusinessLayer\obj\Debug\BusinessLayer.pdb

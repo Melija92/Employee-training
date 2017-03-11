@@ -32,10 +32,11 @@ namespace MVC4.Controllers
         }
         [HttpPost]
         [ActionName("Edit")]
-        public ActionResult Edit_Post([Bind(Exclude = "Name")] Employee employee)
+        public ActionResult Edit_Post(int id)
         { // include ili exclude
             EmployeeBusinessLayer employeeBusinessLayer = new EmployeeBusinessLayer();
-            employee.Name = employeeBusinessLayer.Employees.Single(x => x.ID == employee.ID).Name;
+            Employee employee = employeeBusinessLayer.Employees.Single(x => x.ID == id);
+            UpdateModel<IEmployee>(employee);
 
             if (ModelState.IsValid)
             {
@@ -59,6 +60,13 @@ namespace MVC4.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+        }
+        public ActionResult Delete(int id)
+        {
+            EmployeeBusinessLayer employeeBusinessLayer =
+                new EmployeeBusinessLayer();
+            employeeBusinessLayer.DeleteEmployee(id);
+            return RedirectToAction("Index");
         }
     }
 }

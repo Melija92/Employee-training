@@ -7,7 +7,14 @@ using System.ComponentModel.DataAnnotations; // Entity freamwork, kako bi mogli 
 
 namespace BusinessLayer
 {
-    public class Employee
+    public interface IEmployee
+    {
+        int ID { get; set; }
+        string Gender { get; set; }
+        string City { get; set; }
+        DateTime? DateOfBirth { get; set; }
+    }
+    public class Employee : IEmployee
     {
         public int ID { get; set; }
         public string Name { get; set; }
