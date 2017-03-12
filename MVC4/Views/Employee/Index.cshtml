@@ -25,29 +25,33 @@
                 @Html.DisplayNameFor(model => model.DateOfBirth)
             </th>
             <th>Action</th>
-        </tr>
+        </tr> <-->asdasd</-->
 
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Gender)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.City)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateOfBirth)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                </td>
-            </tr>
+            using (Html.BeginForm("Delete", "Employee", new { id = item.ID })) //zbog ovoga mozemo koristiti httppost
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfBirth)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+
+                        <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete record with ID = @item.ID')" />
+                        <!-->return confirm dize popup sa ok ili cancel</!-->
+                    </td>
+                </tr>
+            }
         }
 
     </table>
