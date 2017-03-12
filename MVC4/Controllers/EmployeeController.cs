@@ -61,12 +61,13 @@ namespace MVC4.Controllers
             }
             return View();
         }
+        [HttpPost]
         public ActionResult Delete(int id)
         {
             EmployeeBusinessLayer employeeBusinessLayer =
                 new EmployeeBusinessLayer();
             employeeBusinessLayer.DeleteEmployee(id);
             return RedirectToAction("Index");
-        }
+        } //2
     }
 }
